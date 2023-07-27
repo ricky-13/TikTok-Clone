@@ -12,4 +12,4 @@ function VideoFooter() {
   )
 }
 
-export default VideoFooter
+export default VideoFooter;
