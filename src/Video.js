@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react'
 import './Video.css'
 import VideoFooter from './VideoFooter';
+import VideoSidebar from './VideoSidebar';
 
 function Video() {
   const videoRef = useRef(null);
@@ -39,8 +40,7 @@ https://v4.cdnpk.net/videvo_files/video/free/video0483/large_watermarked/_import
 
       <VideoFooter />
 
-        {/* <VideoFooter /> */}
-        {/* <VideoSidebar /> */}
+      <VideoSidebar />
     </div>
   )
 }
