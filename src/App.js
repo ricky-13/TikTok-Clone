@@ -7,7 +7,7 @@ function App() {
     <div className = 'app'>
       <div className="app_videos">
         <Video 
-        url = 'https://player.vimeo.com/external/420239207.sd.mp4?s=2b5a6633c37af1a6fb0beb02c06bdc376fdfcce2&profile_id=165&oauth2_token_id=57447761'
+        url = 'https://assets.mixkit.co/videos/preview/mixkit-hacker-in-a-scary-mask-sitting-in-front-of-computer-50751-large.mp4'
         channel = "RickyReviews" 
         description= "YOOOO this works!"
         song = "React is on fireee!"
