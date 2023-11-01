@@ -5,7 +5,22 @@ import { useState } from 'react';
 
 function App() {
   const [videos, setVideos] = useState([]);
-  
+  // tried using axios didnt work, also for axios make a separate file and set base url and import axios 
+/*
+useEffect(() => {
+    async function fetchPosts() {
+      try{
+      const response = await axios.get('http://localhost:9000/v2/posts');
+      setVideos(response.data);
+
+      return response;
+  }
+
+  fetchPosts();
+}, []);
+*/
+
+
   useEffect(() => {
     async function fetchPosts() {
       try{
